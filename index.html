@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+</head>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<style type="text/css">
+table {
+  font-family: 'Raleway', sans-serif;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+}
+table td strong{
+    font-weight: 600;
+    font-size: 14px;
+}
+table #title2 td{
+    font-weight: 600;
+}
+</style>
+<script>
+function myFunction() {
+  $("#btn").hide();
+  window.print();
+  $("#btn").show();
+}
+</script>
+<body>
+
+<span style="float: right;"><button id="btn" onclick="myFunction()">Print</button></span>
+
+<div border="1" style="width: 100%;margin:0;padding:0;">
+    <table style="width: 100%">
+    <tr style="height: 35px" id="id="title0"><!--Main Header-->
+        <td colspan="2"><span style="float: left;">Roll.........</span></td>
+        <td colspan="21" style="text-align: center;"><strong>Class 9 to 10</strong></td>
+        <td colspan="5"><span style="float: left;">Class........</span></td>
+    </tr>
+
+
+    <tr id="title1"><!--Sub Header-->
+        <td style="width: 10%"rowspan="2"><strong>Subject</strong></td>
+        <td style="width: 5%" rowspan="2"><strong>Marks</strong></td>
+        <td style="width: 25%" colspan="7"><strong>First Semester</strong></td>
+        <td style="width: 25%" colspan="7"><strong>Second Semester</strong></td>
+        <td style="width: 25%" colspan="7"><strong>Third Semester</strong></td>
+        <td style="width: 10%" colspan="4"><strong>Final Result</strong></td>
+    </tr>
+
+        <tr id="title2"><!--Details Header-->
+            <!-- first semester -->
+            <td>MCQ</td>
+            <td>Written</td>
+            <td>Practical</td>
+            <td>Total</td>
+            <td>Highest</td>
+            <td>Gread</td>
+            <td>GPA</td>
+            <!-- Second semester -->
+            <td>MCQ</td>
+            <td>Written</td>
+            <td>Practical</td>
+            <td>Total</td>
+            <td>Highest</td>
+            <td>Gread</td>
+            <td>GPA</td>
+            <!-- Third semester -->
+            <td>MCQ</td>
+            <td>Written</td>
+            <td>Practical</td>
+            <td>Total</td>
+            <td>Highest</td>
+            <td>Gread</td>
+            <td>GPA</td>
+            <!-- Final Result -->
+            <td>Total</td>
+            <td>Average</td>
+            <td>Gread</td>
+            <td>GPA</td>
+
+        </tr>
+        <!-- ============================================================================ -->
+
+
+        <!--Data Loop Start here-->
+        <tr>
+            <td><strong>Bangla 1st</strong></td>
+            <td>100</td>
+            <!-- first semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <td rowspan="2">A</td>
+            <td rowspan="2">4.00</td>
+            <!-- Second semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <td rowspan="2">A</td>
+            <td rowspan="2">4.00</td>
+            <!-- Third semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <td rowspan="2">A</td>
+            <td rowspan="2">4.00</td>
+            <!-- Final Result -->
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        <!--Data Loop End here-->
+        <tr>
+            <td><strong>Bangla 2nd</strong></td>
+            <td>100</td>
+            <!-- first semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <!-- Second semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <!-- Third semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <!-- Final Result -->
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td><strong>English 1st</strong></td>
+            <td>100</td>
+            <!-- first semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <td>A</td>
+            <td>4.00</td>
+            <!-- Second semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <td>A</td>
+            <td>4.00</td>
+            <!-- Third semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <td>A</td>
+            <td>4.00</td>
+            <!-- Final Result -->
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        <!--Data Loop End here-->
+        <tr>
+            <td><strong>English 2nd</strong></td>
+            <td>100</td>
+            <!-- first semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <td>A</td>
+            <td>4.00</td>
+            <!-- Second semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <td>A</td>
+            <td>4.00</td>
+            <!-- Third semester -->
+            <td>25</td>
+            <td>45</td>
+            <td>0</td>
+            <td>70</td>
+            <td>0</td>
+            <td>A</td>
+            <td>4.00</td>
+            <!-- Final Result -->
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+<!-- ============================================================================================== -->
+        <!--Bottom Part header-->
+        <tr>
+            <td colspan="2" rowspan="2"></td>
+            <!--Result Part 1-->
+            <td colspan="4" rowspan="2"><strong>1st Semester Result</strong></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+            <!--Result Part 2-->
+            <td colspan="4" rowspan="2"><strong>2nd Semester Result</strong></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+            <!--Result Part 3-->
+            <td colspan="4" rowspan="2"><strong>3rd Semester Result</strong></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+            <td rowspan="2"></td>
+
+            <!--Final Result Part-->
+            <td colspan="2"><strong>Grade</strong></td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>GPA</strong></td>
+            <td colspan="2"></td>
+        </tr>
+
+
+<!-- ========================================================================================= -->
+        <tr><!--bottom body part-->
+            <td colspan="2"><strong>Total Class Days</strong></td>
+            <td colspan="7"></td>
+            <td colspan="7"></td>
+            <td colspan="5"></td>
+            <td colspan="2" rowspan="2"><strong>Final Result</strong></td>
+            <td colspan="4" rowspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Total Present</strong></td>
+            <td colspan="7"></td>
+            <td colspan="7"></td>
+            <td colspan="5"></td>
+        </tr>
+
+        <tr><!--bottom body part-->
+            <td colspan="2"><strong>Total Absent</<strong></td>
+            <td colspan="7"></td>
+            <td colspan="7"></td>
+            <td colspan="5"></td>
+            <td colspan="2" rowspan="2"><strong>Merit Position</strong></td>
+            <td colspan="4" rowspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Discipline</<strong></td>
+            <td colspan="7"></td>
+            <td colspan="7"></td>
+            <td colspan="5"></td>
+        </tr>
+        <tr><!--bottom body part-->
+            <td colspan="2"><strong>Class Present</strong></td>
+            <td colspan="7"></td>
+            <td colspan="7"></td>
+            <td colspan="5"></td>
+            <td colspan="2" rowspan="2"><strong>Class Teacher Signature</strong></td>
+            <td colspan="4" rowspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Class Teacher Comments & Signature</strong></td>
+            <td colspan="7"></td>
+            <td colspan="7"></td>
+            <td colspan="5"></td>
+        </tr>
+        <tr><!--bottom body part-->
+            <td colspan="2"><strong>Head Teacher Signature</strong></td>
+            <td colspan="7"></td>
+            <td colspan="7"></td>
+            <td colspan="5"></td>
+            <td colspan="2" rowspan="2"><strong>Head Teacher Signature</strong></td>
+            <td colspan="4" rowspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Guardian Signature</strong></td>
+            <td colspan="7"></td>
+            <td colspan="7"></td>
+            <td colspan="5"></td>
+        </tr>
+
+        
+    </table>
+
+</div>
+
+
+</body>
+</html>
